@@ -1,0 +1,3 @@
+# Assignment 6 - Weekly Timetable
+
+I created five tables: classes, subjects, teachers, rooms and lessons. Each table has its own primary key, and the lessons table uses foreign keys to connect all the information. I added three UNIQUE constraints to prevent a class, teacher or room from being assigned to two lessons at the same time. I don't store actual dates because the timetable repeats every week, so I only store the weekday and period.
